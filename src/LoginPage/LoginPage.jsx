@@ -41,6 +41,7 @@ function LoginPage() {
                     <label>Username</label>
                     <input type="text" name="username" value={username} onChange={handleChange} className={'form-control' + (submitted && !username ? ' is-invalid' : '')} />
                 </div>
+
                 <div className="form-group">
                     <label>Password</label>
                     <input type="password" name="password" value={password} onChange={handleChange} className={'form-control' + (submitted && !password ? ' is-invalid' : '')} />

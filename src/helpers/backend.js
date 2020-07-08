@@ -18,8 +18,6 @@ export function Backend() {
                         return register();
                     case url.endsWith('/users') && method === 'GET':
                         return getUsers();
-                    // case url.match(/\/users\/\d+$/) && method === 'DELETE':
-                    //     return deleteUser();
                     default:
                         return realFetch(url, opts)
                             .then(response => resolve(response))
@@ -63,13 +61,6 @@ export function Backend() {
                 return ok(users);
             }
 
-            function deleteUser() {
-                if (!isLoggedIn()) return unauthorized();
-
-                users = users.filter(x => x.id !== idFromUrl());
-                localStorage.setItem('users', JSON.stringify(users));
-                return ok();
-            }
 
 
             function ok(body) {

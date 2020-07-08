@@ -2,37 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b2781d5-d9fe-4ec4-9e4e-abe28dfb297a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomePage/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePage/HomePage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LoginPage/LoginPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginPage/LoginPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RegisterPage/RegisterPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegisterPage/RegisterPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_actions/alert.actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_actions/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_actions/user.actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_components/PrivateRoute.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_components/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_constants/alert.constants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_constants/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_constants/user.constants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_helpers/auth-header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_helpers/fake-backend.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_helpers/history.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_helpers/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_helpers/store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_reducers/alert.reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_reducers/authentication.reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_reducers/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_reducers/registration.reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_reducers/users.reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_services/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_services/user.service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/authHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/authHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/backend.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/backend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/userService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/userService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +46,7 @@
       <workItem from="1594146299169" duration="70000" />
       <workItem from="1594191964932" duration="23000" />
       <workItem from="1594192145958" duration="8072000" />
-      <workItem from="1594211896525" duration="827000" />
+      <workItem from="1594211896525" duration="1333000" />
     </task>
     <servers />
   </component>
